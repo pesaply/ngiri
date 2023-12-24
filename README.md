@@ -143,4 +143,3 @@ inspiration around the lower-level networking details.
 
 ---
 
-<p align="center"><i>ngiri is <a href="https://github.com/pesaply/ngiri/blob/master/LICENSE.md">BSD licensed</a> code.<br/>Designed & crafted with care.</i><br/>&mdash;  &mdash;</p>
