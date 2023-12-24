@@ -1,13 +1,9 @@
-<p align="center">
-  <a href="https://www.python-ngiri.org/"><img width="350" height="208" src="https://raw.githubusercontent.com/encode/ngiri/master/docs/img/butterfly.png" alt='ngiri'></a>
-</p>
 
-<p align="center"><strong>Ngiri</strong> <em>- A next-generation HTTP client for Python.</em></p>
+
+<p align="center"><strong>Ngiri</strong> <em>- A next-generation Poxxy and the HTTP client for Python.</em></p>
 
 <p align="center">
-<a href="https://github.com/pesaply/ngiri/actions">
-    <img src="https://github.com/pesaply/ngiri/workflows/Test%20Suite/badge.svg" alt="Test Suite">
-</a>
+
 <a href="https://pypi.org/project/ngiri/">
     <img src="https://badge.fury.io/py/ngiri.svg" alt="Package version">
 </a>
