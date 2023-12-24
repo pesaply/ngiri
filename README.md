@@ -1,12 +1,10 @@
-<p align="center">
-  <a href="https://www.ngiri.co.tz/"><img width="350" height="208" src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt='ngiri'></a>
-</p>
 
-<p align="center"><strong>Ngiri</strong> <em>- A WartHog Poxy and HTTP client for Python.</em></p>
+
+<p align="center"><strong>ngiri</strong> <em>- A next-generation HTTP client for Python.</em></p>
 
 <p align="center">
-<a href="https://github.com/pesaply/ngiri/actions">
-    <img src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt="Test Suite">
+<a href="https://github.com/encode/ngiri/actions">
+    <img src="https://github.com/encode/ngiri/workflows/Test%20Suite/badge.svg" alt="Test Suite">
 </a>
 <a href="https://pypi.org/project/ngiri/">
     <img src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt="Package version">
