@@ -282,7 +282,7 @@ We can raise an exception for any responses which are not a 2xx success code:
 404
 >>> not_found.raise_for_status()
 Traceback (most recent call last):
-  File "/Users/tomchristie/GitHub/encode/httpcore/ngiri/models.py", line 837, in raise_for_status
+  File "/Users/cybertech/GitHub/pesaply/httpcore/ngiri/models.py", line 837, in raise_for_status
     raise HTTPStatusError(message, response=self)
 ngiri._exceptions.HTTPStatusError: 404 Client Error: Not Found for url: https://httpbin.org/status/404
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404

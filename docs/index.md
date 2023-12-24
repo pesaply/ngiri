@@ -1,5 +1,5 @@
 <p align="center" style="margin: 0 0 10px">
-  <img width="350" height="208" src="https://raw.githubusercontent.com/encode/ngiri/master/docs/img/butterfly.png" alt='ngiri'>
+  <img width="350" height="208" src="https://as2.ftcdn.net/v2/jpg/03/00/67/61/1000_F_300676155_XMG5mTLywtsJaZfzf7UpSImu87m8lia8.jpg" alt='ngiri'>
 </p>
 
 <h1 align="center" style="font-size: 3rem; margin: -15px 0">
@@ -10,18 +10,18 @@ ngiri
 
 <div align="center">
 <p>
-<a href="https://github.com/encode/ngiri/actions">
-    <img src="https://github.com/encode/ngiri/workflows/Test%20Suite/badge.svg" alt="Test Suite">
+<a href="https://github.com/pesaply/ngiri/actions">
+    <img src="https://as2.ftcdn.net/v2/jpg/03/00/67/61/1000_F_300676155_XMG5mTLywtsJaZfzf7UpSImu87m8lia8.jpg" alt="Test Suite">
 </a>
 <a href="https://pypi.org/project/ngiri/">
     <img src="https://badge.fury.io/py/ngiri.svg" alt="Package version">
 </a>
 </p>
 
-<em>A next-generation HTTP client for Python.</em>
+<em>Wathog HTTP client for Python.</em>
 </div>
 
-ngiri is a fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
+Ngiri is a fully featured Poxxy and HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
 
 ---
 
@@ -146,4 +146,4 @@ $ pip install ngiri[brotli]
 
 ngiri requires Python 3.8+
 
-[sync-support]: https://github.com/encode/ngiri/issues/572
+[sync-support]: https://github.com/pesaply/ngiri/issues/572
