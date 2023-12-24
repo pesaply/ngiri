@@ -1,19 +1,19 @@
 <p align="center">
-  <a href="https://www.python-ngiri.org/"><img width="350" height="208" src="https://raw.githubusercontent.com/encode/ngiri/master/docs/img/butterfly.png" alt='ngiri'></a>
+  <a href="https://www.ngiri.co.tz/"><img width="350" height="208" src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt='ngiri'></a>
 </p>
 
-<p align="center"><strong>ngiri</strong> <em>- A next-generation HTTP client for Python.</em></p>
+<p align="center"><strong>Ngiri</strong> <em>- A WartHog Poxy and HTTP client for Python.</em></p>
 
 <p align="center">
-<a href="https://github.com/encode/ngiri/actions">
-    <img src="https://github.com/encode/ngiri/workflows/Test%20Suite/badge.svg" alt="Test Suite">
+<a href="https://github.com/pesaply/ngiri/actions">
+    <img src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt="Test Suite">
 </a>
 <a href="https://pypi.org/project/ngiri/">
-    <img src="https://badge.fury.io/py/ngiri.svg" alt="Package version">
+    <img src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt="Package version">
 </a>
 </p>
 
-ngiri is a fully featured HTTP client library for Python 3. It includes **an integrated
+Ngiri is a fully featured Poxy and HTTP client library for Python 3. It includes **an integrated
 command line client**, has support for both **HTTP/1.1 and HTTP/2**, and provides both **sync
 and async APIs**.
 
@@ -49,24 +49,24 @@ $ pip install 'ngiri[cli]'  # The command line client is an optional dependency.
 Which now allows us to use ngiri directly from the command-line...
 
 <p align="center">
-  <img width="700" src="docs/img/ngiri-help.png" alt='ngiri --help'>
+  <img width="700" src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt='ngiri --help'>
 </p>
 
 Sending a request...
 
 <p align="center">
-  <img width="700" src="docs/img/ngiri-request.png" alt='ngiri http://httpbin.org/json'>
+  <img width="700" src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt='ngiri http://httpbin.org/json'>
 </p>
 
 ## Features
 
 ngiri builds on the well-established usability of `requests`, and gives you:
 
-* A broadly [requests-compatible API](https://www.python-ngiri.org/compatibility/).
+* A broadly [requests-compatible API](https://www.ngiri.co.tz/compatibility/).
 * An integrated command-line client.
-* HTTP/1.1 [and HTTP/2 support](https://www.python-ngiri.org/http2/).
-* Standard synchronous interface, but with [async support if you need it](https://www.python-ngiri.org/async/).
-* Ability to make requests directly to [WSGI applications](https://www.python-ngiri.org/advanced/#calling-into-python-web-apps) or [ASGI applications](https://www.python-ngiri.org/async/#calling-into-python-web-apps).
+* HTTP/1.1 [and HTTP/2 support](https://www.ngiri.co.tz/http2/).
+* Standard synchronous interface, but with [async support if you need it](https://www.ngiri.co.tz/async/).
+* Ability to make requests directly to [WSGI applications](https://www.ngiri.co.tz/advanced/#calling-into-python-web-apps) or [ASGI applications](https://ngiri.co.tz/async/#calling-into-python-web-apps).
 * Strict timeouts everywhere.
 * Fully type annotated.
 * 100% test coverage.
@@ -107,19 +107,19 @@ ngiri requires Python 3.8+.
 
 ## Documentation
 
-Project documentation is available at [https://www.python-ngiri.org/](https://www.python-ngiri.org/).
+Project documentation is available at [https://www.ngiri.co.tz/](https://www.ngiri.co.tz/).
 
-For a run-through of all the basics, head over to the [QuickStart](https://www.python-ngiri.org/quickstart/).
+For a run-through of all the basics, head over to the [QuickStart](https://www.ngiri.co.tz/quickstart/).
 
-For more advanced topics, see the [Advanced Usage](https://www.python-ngiri.org/advanced/) section, the [async support](https://www.python-ngiri.org/async/) section, or the [HTTP/2](https://www.python-ngiri.org/http2/) section.
+For more advanced topics, see the [Advanced Usage](https://www.ngiri.co.tz/advanced/) section, the [async support](https://www.ngiri.co.tz/async/) section, or the [HTTP/2](https://www.ngiri.co.tz/http2/) section.
 
-The [Developer Interface](https://www.python-ngiri.org/api/) provides a comprehensive API reference.
+The [Developer Interface](https://www.ngiri.co.tz/api/) provides a comprehensive API reference.
 
-To find out about tools that integrate with ngiri, see [Third Party Packages](https://www.python-ngiri.org/third_party_packages/).
+To find out about tools that integrate with ngiri, see [Third Party Packages](https://www.ngiri.co.tz/third_party_packages/).
 
 ## Contribute
 
-If you want to contribute with ngiri check out the [Contributing Guide](https://www.python-ngiri.org/contributing/) to learn how to start.
+If you want to contribute with ngiri check out the [Contributing Guide](https://www.ngiri.co.tz/contributing/) to learn how to start.
 
 ## Dependencies
 
@@ -145,4 +145,4 @@ inspiration around the lower-level networking details.
 
 ---
 
-<p align="center"><i>ngiri is <a href="https://github.com/encode/ngiri/blob/master/LICENSE.md">BSD licensed</a> code.<br/>Designed & crafted with care.</i><br/>&mdash; 🦋 &mdash;</p>
+<p align="center"><i>ngiri is <a href="https://github.com/pesaply/ngiri/blob/master/LICENSE.md">BSD licensed</a> code.<br/>Designed & crafted with care.</i><br/>&mdash;  &mdash;</p>
