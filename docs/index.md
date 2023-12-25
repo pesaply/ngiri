@@ -10,9 +10,7 @@ ngiri
 
 <div align="center">
 <p>
-<a href="https://github.com/pesaply/ngiri/actions">
-    <img src="https://as2.ftcdn.net/v2/jpg/03/00/67/61/1000_F_300676155_XMG5mTLywtsJaZfzf7UpSImu87m8lia8.jpg" alt="Test Suite">
-</a>
+
 <a href="https://pypi.org/project/ngiri/">
     <img src="https://badge.fury.io/py/ngiri.svg" alt="Package version">
 </a>

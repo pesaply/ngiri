@@ -22,7 +22,7 @@ from ._status_codes import codes
 def print_help() -> None:
     console = rich.console.Console()
 
-    console.print("[bold]Ngiri :", justify="center")
+    console.print("[bold]Ngiri : Mikumi", justify="center")
     console.print()
     console.print("Warhog for HTTP proxy and HTTP client.", justify="center")
     console.print()
