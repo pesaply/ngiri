@@ -3,12 +3,7 @@
 <p align="center"><strong>Ngiri</strong> <em>- A next-generation HTTP client for Python.</em></p>
 
 <p align="center">
-<a href="https://github.com/encode/ngiri/actions">
-    <img src="https://github.com/pesaply/ngiri/workflows/Test%20Suite/badge.svg" alt="Test Suite">
-</a>
-<a href="https://pypi.org/project/ngiri/">
-    <img src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt="Package version">
-</a>
+
 </p>
 
 Ngiri is a fully featured Poxy and HTTP client library for Python 3. It includes **an integrated
