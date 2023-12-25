@@ -22,9 +22,9 @@ from ._status_codes import codes
 def print_help() -> None:
     console = rich.console.Console()
 
-    console.print("[bold]ngiri :butterfly:", justify="center")
+    console.print("[bold]Ngiri :", justify="center")
     console.print()
-    console.print("Warhog for HTTP proxy and client.", justify="center")
+    console.print("Warhog for HTTP proxy and HTTP client.", justify="center")
     console.print()
     console.print(
         "Usage: [bold]ngiri[/bold] [cyan]<URL> [OPTIONS][/cyan] ", justify="left"
@@ -72,6 +72,10 @@ def print_help() -> None:
     table.add_row(
         "--proxy [cyan]URL",
         "Send the request via a proxy. Should be the URL giving the proxy address.",
+    )
+    table.add_row(
+        "--http [cyan]URL",
+        "Send the request via a proxy. Should be the URL giving the proxy address and Port Number.",
     )
 
     table.add_row(

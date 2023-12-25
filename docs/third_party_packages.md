@@ -26,7 +26,7 @@ An asynchronous GitHub API library. Includes [ngiri support](https://gidgethub.r
 
 ### ngiri-Auth
 
-[GitHub](https://github.com/Colin-b/ngiri_auth) - [Documentation](https://colin-b.github.io/ngiri_auth/)
+[GitHub](https://github.com/pesaply/ngiri_auth) - [Documentation](https://ngiri.github.io/ngiri_auth/)
 
 Provides authentication classes to be used with ngiri [authentication parameter](advanced.md#customizing-authentication).
 

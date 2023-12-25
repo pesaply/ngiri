@@ -9,21 +9,21 @@ def test_get(server):
     response = ngiri.get(server.url)
     assert response.status_code == 200
     assert response.reason_phrase == "OK"
-    assert response.text == "Hello, world!"
+    assert response.text == "Habari, Dunia!"
     assert response.http_version == "HTTP/1.1"
 
 
 def test_post(server):
-    response = ngiri.post(server.url, content=b"Hello, world!")
+    response = ngiri.post(server.url, content=b"Habari, Dunia!")
     assert response.status_code == 200
     assert response.reason_phrase == "OK"
 
 
 def test_post_byte_iterator(server):
     def data() -> typing.Iterator[bytes]:
-        yield b"Hello"
+        yield b"Habari"
         yield b", "
-        yield b"world!"
+        yield b"Dunia!"
 
     response = ngiri.post(server.url, content=data())
     assert response.status_code == 200
@@ -33,9 +33,9 @@ def test_post_byte_iterator(server):
 def test_post_byte_stream(server):
     class Data(ngiri.SyncByteStream):
         def __iter__(self):
-            yield b"Hello"
+            yield b"Habari"
             yield b", "
-            yield b"world!"
+            yield b"Dunia!"
 
     response = ngiri.post(server.url, content=Data())
     assert response.status_code == 200
@@ -55,13 +55,13 @@ def test_head(server):
 
 
 def test_put(server):
-    response = ngiri.put(server.url, content=b"Hello, world!")
+    response = ngiri.put(server.url, content=b"Habari, Dunia!")
     assert response.status_code == 200
     assert response.reason_phrase == "OK"
 
 
 def test_patch(server):
-    response = ngiri.patch(server.url, content=b"Hello, world!")
+    response = ngiri.patch(server.url, content=b"Habari, Dunia!")
     assert response.status_code == 200
     assert response.reason_phrase == "OK"
 
@@ -78,7 +78,7 @@ def test_stream(server):
 
     assert response.status_code == 200
     assert response.reason_phrase == "OK"
-    assert response.text == "Hello, world!"
+    assert response.text == "Habari, Dunia!"
     assert response.http_version == "HTTP/1.1"
 
 
