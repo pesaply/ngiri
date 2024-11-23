@@ -22,7 +22,7 @@ Now, let's get started:
 
 ```pycon
 >>> import ngiri
->>> r = ngiri.get('https://www.example.org/')
+>>> r = ngiri.get('https://botpesa.com/api/')
 >>> r
 <Response [200 OK]>
 >>> r.status_code
@@ -41,15 +41,10 @@ $ pip install 'ngiri[cli]'  # The command line client is an optional dependency.
 
 Which now allows us to use ngiri directly from the command-line...
 
-<p align="center">
-  <img width="700" src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt='ngiri --help'>
-</p>
+
 
 Sending a request...
 
-<p align="center">
-  <img width="700" src="https://as2.ftcdn.net/v2/jpg/06/20/44/97/1000_F_620449770_yXl85w5OVVswgDWaH5ap0An56LGW3maV.jpg" alt='ngiri http://httpbin.org/json'>
-</p>
 
 ## Features
 
